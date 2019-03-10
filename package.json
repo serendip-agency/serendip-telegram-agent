@@ -1,0 +1,46 @@
+{
+  "name": "serendip-telegram-agent",
+  "version": "1.0.0",
+  "description": "serendip business telegram agent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app.js"
+  },
+  "author": "Mohsen Esmaeili <m-esm@hotmail.com>",
+  "license": "ISC",
+  "homepage": "https://serendip.agency",
+  "devDependencies": {
+    "@types/archiver": "^2.1.2",
+    "@types/fs-extra": "^5.0.4",
+    "@types/handlebars": "^4.0.40",
+    "@types/moment-jalaali": "^0.7.4",
+    "@types/mongodb": "^3.1.2",
+    "@types/node-telegram-bot-api": "^0.30.4",
+    "@types/underscore": "^1.8.13",
+    "@types/ws": "^6.0.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-typescript": "^4.0.2",
+    "gulp-uglify-es": "^1.0.4",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "@types/nodemailer": "^4.6.6",
+    "aes-js": "^3.1.2",
+    "archiver": "^2.1.1",
+    "dotenv": "^6.2.0",
+    "fs-extra": "^7.0.1",
+    "glob": "^7.1.3",
+    "handlebars": "^4.1.0",
+    "moment": "^2.22.2",
+    "moment-jalaali": "^0.8.3",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.88.0",
+    "serendip": "^1.1.10",
+    "serendip-business-model": "^1.1.1",
+    "serendip-mongodb-provider": "^1.0.4",
+    "serendip-utility": "^1.1.1",
+    "underscore": "^1.9.1"
+  }
+}
